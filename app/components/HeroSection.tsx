@@ -96,9 +96,8 @@ const HeroSection = () => {
               Licensed Clinical Psychologist | Fictional Therapist
             </p>
 
-            <button className="px-8 py-3 md:px-10 md:py-4 border-2 border-gray-800 hover:bg-gray-800 hover:text-white transition-all duration-500 font-medium cursor-pointer hover:shadow-lg transform ">
-              Get Started &rarr;
-
+            <button className="px-8 py-3 md:px-10 md:py-3 border-2 border-gray-800 hover:bg-gray-800 hover:text-white transition-all duration-500 font-medium cursor-pointer hover:shadow-lg transform ">
+              CONNECT WITH ME &rarr;
             </button>
           </div>
         </div>
