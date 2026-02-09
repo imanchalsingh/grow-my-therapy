@@ -14,7 +14,7 @@ const GetStart = () => {
           therapeutic journey with you.
         </p>
         <button className="px-8 py-3 md:px-10 md:py-3 border-2 border-white hover:bg-white hover:text-[#5d81a2] transition-all duration-500 font-medium mt-2 md:mt-4 cursor-pointer">
-          Get Started
+          Get Started &rarr;
         </button>
       </div>
     </div>
