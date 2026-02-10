@@ -42,8 +42,8 @@ const Navbar = () => {
   return (
     <>
       <nav
-        className={`flex bg-[#EDF2FA] h-14 w-full fixed top-0 left-0 z-50 justify-between items-center px-4 md:px-10 transition-all duration-300 ${
-          isScrolled ? "shadow-lg" : "shadow-sm"
+        className={`flex bg-white h-14 w-full fixed top-0 left-0 z-50 justify-between items-center px-4 md:px-10 transition-all duration-300 ${
+          isScrolled ? "shadow-sm" : ""
         }`}
       >
         {/* Left side - Hamburger Menu for mobile */}
@@ -77,7 +77,7 @@ const Navbar = () => {
   "
           >
             <h1 className="text-gray-800 text-2xl md:text-3xl whitespace-nowrap">
-              Dr. Maya
+              Fictional Therapy
             </h1>
           </div>
         </div>
