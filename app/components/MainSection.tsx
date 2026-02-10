@@ -41,15 +41,15 @@ const MainSection = () => {
         ref={textRef}
         className="w-full lg:w-1/2 flex justify-center text-center items-center flex-col px-6 py-12 lg:py-0 lg:px-12 opacity-0"
       >
-        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold mb-6 lg:mb-8">
-          Live a fulfilling life.
+        <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-6xl font-semibold mb-6 lg:mb-8">
+          Live a more balanced, fulfilling life.
         </h1>
         <div className="space-y-4 text-base md:text-lg lg:text-xl max-w-2xl">
           <p>
-            {`Life can be challenging—especially when you're trying to balance your personal and professional life.`}
+            {`Life can feel overwhelming when anxiety, stress, or past experiences quietly shape your days especially while managing work, relationships, and high expectations.`}
           </p>
           <p>
-            {`It's easy to feel like you're alone in facing these challenges, but I want you to know that I'm here to help.`}
+            {`You don’t have to navigate it alone. Together, we’ll create space to slow down, feel more grounded, and build a way of living that feels more sustainable and aligned with who you are.`}
           </p>
         </div>
       </div>
