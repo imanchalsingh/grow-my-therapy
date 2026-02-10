@@ -6,6 +6,7 @@ import HeroSection from "../components/HeroSection";
 import MainSection from "../components/MainSection";
 import SpecialtiesSection from "../components/SpecialtiesSection";
 import TherapySection from "../components/TherapySection";
+import ProfessionalBG from "../components/ProfessionalBG";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <MainSection />
       <SpecialtiesSection />
       <TherapySection />
+      <ProfessionalBG />
       <GetStart />
       <Footer />
     </div>
