@@ -7,6 +7,8 @@ import MainSection from "../components/MainSection";
 import SpecialtiesSection from "../components/SpecialtiesSection";
 import TherapySection from "../components/TherapySection";
 import ProfessionalBG from "../components/ProfessionalBG";
+import FAQs from "../components/FAQs";
+import AboutSection from "../components/AboutSection";
 
 const HomePage = () => {
   return (
@@ -16,6 +18,8 @@ const HomePage = () => {
       <MainSection />
       <SpecialtiesSection />
       <TherapySection />
+      <AboutSection />
+      <FAQs />
       <ProfessionalBG />
       <GetStart />
       <Footer />
