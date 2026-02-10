@@ -1,1 +1,5 @@
 @import "tailwindcss";
+/* globals.css */
+:root {
+  --font-kanit: "Kanit", sans-serif;
+}
