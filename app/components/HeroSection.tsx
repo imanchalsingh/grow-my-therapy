@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-import profile_pic from "../../public/Images/Dr. Maya Reynolds.png";
+import calm_pic from "../../public/Images/calm-image.jpg";
 
 const HeroSection = () => {
   const textRef = useRef<HTMLDivElement>(null);
@@ -64,15 +64,15 @@ const HeroSection = () => {
           ref={imageRef}
           className="w-full lg:w-1/2 flex justify-center items-center mb-8 lg:mb-0 opacity-0"
         >
-          <div className="relative w-2xl h-[50vh] md:w-7xl md:h-screen">
+          <div className="relative w-xl h-[40vh] md:w-7xl md:h-screen">
             <Image
               className="
-    h-[90%] w-150 rounded-t-[50%]
-    absolute bottom-0 z-10 hover-scale
+    h-[90%] w-140 rounded-tl-[48%] rounded-tr-[48%]
+    absolute bottom-0 z-10
     left-1/2 -translate-x-1/2
     lg:left-0 lg:translate-x-0 
   "
-              src={profile_pic}
+              src={calm_pic}
               alt="Dr. Maya Reynolds, Licensed Clinical Psychologist"
             />
           </div>
@@ -88,12 +88,12 @@ const HeroSection = () => {
   "
         >
           <div className="flex flex-col items-center text-center">
-            <h1 className="max-w-xl text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
-              Dr. Maya Reynolds
+            <h1 className="max-w-xl text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 leading-tight">
+              Find steadiness and clarity.
             </h1>
 
             <p className="max-w-lg text-lg md:text-xl text-gray-600 mb-8">
-              Licensed Clinical Psychologist | Fictional Therapist
+              Therapy for Adults in Santa Monica, CA.
             </p>
 
             <button className="px-8 py-3 md:px-10 md:py-3 border-2 border-gray-800 hover:bg-gray-800 hover:text-white transition-all duration-500 font-medium cursor-pointer hover:shadow-lg transform ">
